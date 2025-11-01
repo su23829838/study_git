@@ -13,6 +13,7 @@
 3. サンプルデータを投入
    
  `php artisan db:seed`
+ `php artisan db:seed --class=StaffSeeder`
 
 5. ローカルサーバをたてて動作確認
    
