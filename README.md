@@ -6,6 +6,14 @@
 
 2. 共有サーバの .env をコピー
 
-3. ローカルサーバをたてて動作確認
+2. テーブルの雛形をデータベースに登録
+
+ `php artisan serve`
+ 
+3. サンプルデータを投入
+   
+ `php artisan db:seed`
+
+5. ローカルサーバをたてて動作確認
    
   `php artisan serve`
